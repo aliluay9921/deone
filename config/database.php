@@ -45,19 +45,19 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            // 'url' => env('DATABASE_URL'),
-            // 'host' => env('DB_HOST', '127.0.0.1'),
-            // 'port' => env('DB_PORT', '3306'),
-            // 'database' => 'deone',
-            // 'username' => 'root',
-            // 'password' => '',
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => 'deone',
+            'username' => 'root',
+            'password' => '',
 
-            'url' => 'postgres://ayagxssmkpspfu:69b43e75c356dfb208f129ae22849d3dc173bcfb74b8ad599cfe64cb032b6d0e@ec2-52-204-113-104.compute-1.amazonaws.com:5432/dn22trmlqji10',
-            'host' => 'ec2-52-204-113-104.compute-1.amazonaws.com',
-            'port' => '5432',
-            'database' => 'dn22trmlqji10 ',
-            'username' => 'ayagxssmkpspfu',
-            'password' => '69b43e75c356dfb208f129ae22849d3dc173bcfb74b8ad599cfe64cb032b6d0e',
+            // 'url' => 'postgres://ayagxssmkpspfu:69b43e75c356dfb208f129ae22849d3dc173bcfb74b8ad599cfe64cb032b6d0e@ec2-52-204-113-104.compute-1.amazonaws.com:5432/dn22trmlqji10',
+            // 'host' => 'ec2-52-204-113-104.compute-1.amazonaws.com',
+            // 'port' => '5432',
+            // 'database' => 'dn22trmlqji10 ',
+            // 'username' => 'ayagxssmkpspfu',
+            // 'password' => '69b43e75c356dfb208f129ae22849d3dc173bcfb74b8ad599cfe64cb032b6d0e',
 
 
 
